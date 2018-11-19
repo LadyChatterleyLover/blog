@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^2.6.3",
+    "koa": "^2.2.0",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-formidable": "^1.1.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-multer": "^1.0.2",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.12",
+    "pug": "^2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
